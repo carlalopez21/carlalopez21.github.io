@@ -1,10 +1,117 @@
 body{
-text-align:center;
+/* text-align:center; */
+font-family: sans-serif;
+font-weight: lighter;
+}
+h1{
+  font-weight: lighter;
+  letter-spacing: 4px;
+}
+.header > a{
+  text-decoration: none;
+}
+.header{
+  text-align: right;
+  padding:15px;
+}
+.hp-title{
+  position:relative;
+  right:140px;
 
 }
-img{
-  width:400px;
+.img-wrapper{
+  /* position: absolute; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+  left: 0;
+  right: 0;
+  top:200px;
+  text-align: center;
 }
-.links > a{
+.hp-image{
+  width:400px;
+  /* margin:auto; */
+  /* margin-left:-100px; */
+  /* position: absolute; */
+  /* top:200px; */
+}
+img{
+
+}
+a, a:visited{
+  color:black;
+}
+a:hover{
+  color:red;
+}
+.links{
+  width:0px;
+  margin:auto;
+  text-align: center;
+}
+.links > div{
   display: block;
+  /* position:relative; */
+}
+.links > div > a{
+  font-size:20px;
+}
+.copyright{
+  font-size:12px;
+  font-weight: lighter;
+  position:absolute;
+  bottom:7px;
+  text-align: center;
+  margin:auto;
+  left:0;
+  right:0;
+}
+.hp-link{
+  /* position:relative; */
+}
+.l1{
+  top:100px;
+  left:500px;
+}
+.l2{
+  top:150px;
+  left:1000px;
+}
+
+
+
+/* ~~~~~ABOUT CSS~~~~~~ */
+.about-wrapper{
+display: flex;
+justify-content: center;
+flex-direction: row;
+}
+.about-cont{
+  margin-left:100px;
+  margin-right:100px;
+}
+.about-left,.about-right{
+  width:30vw;
+  display: inline-block;
+}
+.about-left{
+  text-align: left;
+  margin-right:100px;
+}
+.about-right{
+  font-size:20px;
+  text-align: center;
+}
+.cv{
+  background-color:black;
+  padding:1px;
+}
+.cv > a{
+  color:white;
+}
+
+/* ~~~~REEL CSS~~~~~ */
+.reel-cont{
+  text-align: center;
 }
